@@ -15,7 +15,6 @@ class Appointment extends Model
         'notes'
     ];
 
-    // Casteamos la fecha para que Laravel la maneje como objeto Carbon
     protected $casts = [
         'scheduled_at' => 'datetime',
     ];
